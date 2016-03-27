@@ -41,7 +41,7 @@ body{
     font-size: 38px;
     font-weight: 600;
     font-family: 'Hind Vadodara';
-    padding: 12px 15px;
+    padding: 12px 10px;
 }
 ul.nav-max-wid>li>a{
     font-family: 'Hind Vadodara';
@@ -143,6 +143,7 @@ ul.social li a.inst:hover{
 }
 img.banner-wid{
     width: 100%;
+    max-height: 500px;
 }
 section.best-quality {
     background-color: #C7AB84;
@@ -180,7 +181,7 @@ section.best-quality p {
     list-style-type: none;
 }
 .work-grid-text ul li {
-    width: 33.333333%;
+    width: 100%;
     float: left;
     text-align: left;
     font-family: 'Hind Vadodara';
@@ -260,6 +261,8 @@ a.work-btn:hover,a.work-btn:focus{
 }
 img.latest-img {
     width: 100%;
+        max-height: 350px;
+    min-height: 350px;
 }
 .latest-bg-pos{
     position: relative;
