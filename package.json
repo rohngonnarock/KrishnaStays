@@ -40,5 +40,8 @@
   },
   "scripts": {
     "test": "karma start test\\karma.conf.js"
+  },
+  "dependencies": {
+    "jit-grunt": "^0.10.0"
   }
 }
