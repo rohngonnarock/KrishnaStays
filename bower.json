@@ -11,7 +11,9 @@
     "angular-sanitize": "^1.4.0",
     "angular-touch": "^1.4.0",
     "lightbox2": "lightbox#^2.8.2",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "move-top":"./app/js/move-top.js",
+    "easing":"./app/js/easing.js"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

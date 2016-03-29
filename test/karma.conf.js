@@ -31,6 +31,8 @@ module.exports = function(config) {
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/lightbox2/dist/js/lightbox.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
+      'bower_components/move-top/index.js',
+      'bower_components/easing/index.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
