@@ -1,1 +1,101 @@
-<p>This is the about view.</p>
+<!--about-->
+<div class="about-content">
+    <div class="about-top">
+        <div class="container">
+            <h2>About</h2>
+            <div class="row">
+                <div class="col-sm-4 col-xs-6 about-grid abt-brp">
+                    <img src="images/abt.jpg" class="img-circle abt-img" alt="" />
+                    <h3>john Doe</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-sm-4 col-xs-6 about-grid abt-brp">
+                    <img src="images/abt3.jpg" class="img-circle abt-img" alt="" />
+                    <h3>Rachel</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-sm-4 col-xs-12 about-grid abt-brp">
+                    <img src="images/abt2.jpg" class="img-circle abt-img t" alt="" />
+                    <h3>Richard</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></p>
+
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
+    </div>
+    <!--about-top-->
+    <div class="about-bottom">
+        <div class="container">
+            <h4>A Few words about us</h4>
+            <div class="col-sm-7 col-xs-12 about-btm-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros. Nullam tellus turpis, fringilla sit amet congue ut, luctus a nulla. Donec sit amet sapien neque, id ullamcorper diam. Nulla facilisi. Pellentesque pellentesque arcu a elit congue lacinia.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse.</p>
+            </div>
+            <div class="col-sm-5 col-xs-12 slide-about">
+                <div class="side">
+                    <div id="top" class="callbacks_container">
+                        <ul class="rslides about-slides" id="slider4">
+                            <li>
+                                <img src="images/proj.jpg" class="img-abt-grid" alt="" />
+                            </li>
+                            <li>
+                                <img src="images/proj1.jpg" class="img-abt-grid" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <script src="js/responsiveslides.min.js"></script>
+                <script>
+                                    // You can also use "$(window).load(function() {"
+                                    $(function () {
+                                      // Slideshow 4
+                                      $("#slider4").responsiveSlides({
+                                        auto: true,
+                                        pager:false,
+                                        nav: true,
+                                        speed: 500,
+                                        namespace: "callbacks",
+                                        before: function () {
+                                          $('.events').append("<li>before event fired.</li>");
+                                        },
+                                        after: function () {
+                                          $('.events').append("<li>after event fired.</li>");
+                                        }
+                                      });
+
+                                    });
+                </script>
+                <!--//End-slider-script-->
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="about-testimonials">
+        <div class="container">
+            <h3 class="test">Testimonials</h3>
+            <div class="col-sm-4 col-xs-6 test-bkp">
+                <div class="test-mon">
+                    <h3>lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-6 test-bkp">
+                <div class="test-mon">
+                    <h3>lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12 test-bkp">
+                <div class="test-mon">
+                    <h3>lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--about-ends-->
