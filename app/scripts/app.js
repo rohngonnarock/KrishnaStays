@@ -49,8 +49,8 @@ angular
         });
 
       // use the HTML5 History API
-      $locationProvider.html5Mode({
-          enabled: true,
-          requireBase: false
-      });
+      //$locationProvider.html5Mode({
+      //    enabled: true,
+      //    requireBase: false
+      //});
   });
